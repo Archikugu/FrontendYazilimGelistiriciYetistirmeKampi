@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gökhan GÖK">
+    <meta name="keywords" content="C#, ASP.NET, JuniorBackend Developer">
+    <title>1-Html</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid red;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Başlıklar-->
+    <h1>İlk Başlığım</h1>
+    <h2>İkinci Başlığım</h2>
+    <h3>Üçüncü Başlığım</h3>
+    <h4>Dördüncü Başlığım</h4>
+    <h5>Beşinci Başlığım</h5>
+    <h6>Altıncı Başlığım</h6>
+
+
+    <h1 style="color: blue;">Frontend</h1>
+    <h2 style="color: black; background-color: greenyellow;">Html Eğitimi</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores veniam dolorem consequuntur! Maiores voluptatem
+        obcaecati ut consectetur alias, assumenda molestias amet sint, ab aut accusamus dolore ducimus numquam doloribus
+        aliquid.</p>
+
+    <h1>Backend</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil libero corrupti dicta iure temporibus,
+        aspernatur facere nobis quidem nostrum mollitia exercitationem animi nisi, sapiente blanditiis. In vitae soluta
+        eligendi?</p>
+
+    <h1>Full Stack</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil libero corrupti dicta iure temporibus,
+        aspernatur facere nobis quidem nostrum mollitia exercitationem animi nisi, sapiente blanditiis. In vitae soluta
+        eligendi?</p>
+
+    <!--İmage Liste-->
+    <img src="1.jpg" height="250">
+    <img src="2.jpg" height="250">
+    <img src="3.jpg" height="250">
+    <img src="4.jpg" height="250">
+
+    <div style="background-image: url('banner.jpg'); height: 650px;">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non itaque quia recusandae ut
+            accusamus maxime dolorum sapiente doloremque? Officia tempore dolorem voluptatum recusandae libero facere
+            ullam debitis aliquid unde!</p>
+    </div>
+
+    <!--Tablo Yapısı-->
+
+    <table style="width: 100%;">
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Yaş</th>
+        </tr>
+        <tr>
+            <td>Gokhan</td>
+            <td>GOK</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Osman Can</td>
+            <td>BICER</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+    <!--Sırasız Liste-->
+    <ul>
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ul>
+
+    <ul style="list-style-type: none;">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ul>
+
+    <ul style="list-style-type: circle;">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ul>
+
+    <ul style="list-style-type: square ;">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ul>
+
+    <!--Sıralı Liste-->
+    <ol>
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ol>
+
+    <ol type="1">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ol>
+
+    <ol type="A">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ol>
+    <ol type="a">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ol>
+    <ol type="I">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>İnsan</li>
+    </ol>
+
+
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <!-- Html Block Element
+    <address><article><aside><blockquote><canvas><dd><div>
+    <dl><dt><fieldset><figcaption><figure><footer><form>
+    <h1>-<h6><header><hr><li><main><nav><noscript><ol><p>
+    <pre><section><table><tfoot><ul><video>
+
+
+    Html Inline Element
+    <a><abbr><acronym><b><bdo><big><br><button><cite><code>
+    <dfn><em><i><img><input><kbd><label><map><object><output>
+    <q><samp><script><select><small><span><strong><sub>
+    <textarea><time><tt><var>   
+    -->
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+
+    <span>Gokhan</span>
+    <span>Gok</span>
+
+    <p>Lorem, ipsum dolor sit amet consectetur <span style="color: red;"> adipisicing </span> elit. Omnis ex repellat
+        aut laudantium saepe
+        odit sit unde!
+        Dolorum, quia odit voluptatum, quae incidunt nisi iste minima dignissimos perferendis vitae magni.</p>
+
+    <!--Form Etiketleri-->
+
+    <form>
+        <label>Adiniz:</label>
+        <input type="text" placeholder="Adinizi Giriniz" name="ad" value="">
+
+        <label>Soyadiniz:</label>
+        <input type="text" placeholder="Soyadinizi Giriniz" name="soyad" value="">
+
+        <label>Sifreniz:</label>
+        <input type="password" placeholder="Sifrenizi Giriniz" name="password" value="">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores minus quaerat ex voluptatibus
+            reiciendis nostrum molestiae doloribus odit quia? Ab voluptatibus, officiis dolores possimus vitae eius
+            quasi quibusdam corporis?</p>
+    </form>
+
+    <h2>Radio Inputlarım</h2>
+    <form>
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+    </form>
+
+
+    <h2>Checkbox Inputlarım</h2>
+    <form>
+        <input type="checkbox" name="gender" value="male">
+        <label>Male</label>
+        <input type="checkbox" name="gender" value="female">
+        <label>Female</label>
+    </form>
+
+    <h2>Textarea</h2>
+    <form>
+        <textarea name="" id="" cols="30" rows="5"> </textarea>
+    </form>
+
+</body>
+
+</html>
